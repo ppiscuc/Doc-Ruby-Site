@@ -57,3 +57,21 @@ a {
     width:780px;
     margin:0 auto;
 }
+/* --------------- form --------------- */
+
+form {
+    display: block;
+}
+form a, form a:hover, form a:active {
+    color: #f26323;
+    text-decoration: none;
+}
+input {
+    font-size: 13px;
+    color: #3d3c39;
+    /* gri border: 1px solid #aeaca7; */
+    border: 1px solid #f26323;
+    background-color: #f4f7f1;
+    padding: 8px;
+
+}

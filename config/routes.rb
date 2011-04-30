@@ -1,13 +1,11 @@
 Doctify::Application.routes.draw do
-  #resources :docs do
-  #  collection do
-  #      get 'search'
-  #  end
-  #end
+  get "home/index"
 
   resources :docs do
        get 'search', :on => :collection 
   end
+
+  root :to => "home#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
