@@ -2,14 +2,45 @@
 <html>
 <head>
   <title>Doctify</title>
+  <link rel="canonical" href="http://doctify.com/" />
   <%= stylesheet_link_tag :all %>
+  <%= stylesheet_link_tag 'screen', :media => 'screen' %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
 <body>
-<div class="container">
+<div id="container">
+    <div id="header" class="clearfix">
+        <div id="strip">
+            <div id="st" class="clearfix">
+                <h1>
+                    <a href="http://doctify.com">Doctify.</a>
+                </h1>
+                <div id="search">
+                Search-bar-search-bar
+                </div>
+            </div>
+            <div id="dr">
+                <p>
+                    Search for manuals and docs in style.
+                </p>
+                <p>
+                    All your information that you are looking for is here is a smart format.
+                </p>
+                <p>
+                    Go ahead, try it.
+                </p>
+        </div>
+    </div>
+   </div>
+    <div id="content">
+        <div id="content-strip">
+        <%= yield %>
+        </div>
+    </div>
+    <div id="footer">
 
-<%= yield %>
+    </div>
 <div>
 </body>
 </html>
