@@ -1,0 +1,7 @@
+<ul>
+<% @docs.each do |doc| %>
+    <li>
+        <%= link_to doc.name, :action => 'show', :id => doc.id %>
+    </li>
+<% end %>
+</ul>

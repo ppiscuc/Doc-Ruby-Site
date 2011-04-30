@@ -80,4 +80,7 @@ class DocsController < ApplicationController
       format.xml  { head :ok }
     end
   end
+  def search
+    @docs = Doc.search params[:search]
+  end
 end
