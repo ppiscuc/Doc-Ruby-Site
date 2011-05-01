@@ -3,8 +3,9 @@
 <table>
   <tr>
     <th>Name</th>
+    <th>Short Description</th>
     <th>Brief</th>
-    <th>Data</th>
+    <th>Full Document</th>
     <th></th>
     <th></th>
     <th></th>
@@ -13,8 +14,9 @@
 <% @docs.each do |doc| %>
   <tr>
     <td><%= doc.name %></td>
+    <td><%= doc.shortdesc %></td>
     <td><%= doc.brief %></td>
-    <td><%= doc.data %></td>
+    <td><%= doc.fulldocument %></td>
     <td><%= link_to 'Show', doc %></td>
     <td><%= link_to 'Edit', edit_doc_path(doc) %></td>
     <td><%= link_to 'Destroy', doc, :confirm => 'Are you sure?', :method => :delete %></td>
