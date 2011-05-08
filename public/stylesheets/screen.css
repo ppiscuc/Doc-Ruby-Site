@@ -75,3 +75,25 @@ input {
     padding: 8px;
 
 }
+/* --------------------- footer ----------------------*/
+
+#footer {
+    background: #f4f6f3;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 15px;
+}
+#footer-box {
+    width: 780px;
+    margin: 0 auto;
+    border: 1px solid #a7a7a7;
+    background: #fff;
+}
+#footer-box ul {
+    list-style:none;
+    font-size: 11px;
+    line-height: 12px;
+}
+#footer-box ul li {
+    display: inline;
+}
