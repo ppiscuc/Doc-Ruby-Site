@@ -43,10 +43,21 @@ a {
     float: left;
 }
 #header #strip #st h1 {
-    position: relative;
-    float: left;
-    font-size: 50px;
-    line-height: 54px;
+    font-family: 'Yanone Kaffeesatz', serif;
+  font-size: 47px;
+  font-style: normal;
+  font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1.2;
+}
+#header #strip #st h1 a:hover {
+    color: #000;
+    background-color: #f4f6f3;
+    text-decoration: none;
 }
 #header #strip #st #search {
     position: relative;
@@ -72,7 +83,7 @@ input {
     /* gri border: 1px solid #aeaca7; */
     border: 1px solid #f26323;
     background-color: #f4f7f1;
-    padding: 8px;
+    padding: 3px;
 
 }
 /* --------------------- footer ----------------------*/
